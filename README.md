@@ -48,7 +48,8 @@ The algorithm performs two steps:
 * Apply "bit-magic" to compute an initial guess with at most 41% relative error
 * Apply 2 iterations of Newton's method to drive the maximum relative error down to <0.2%
 
-The plot shows the relative error after each step for x values from 1 to 16.
+The plot shows the relative error after each of the two steps for x values from 1 to 16.
+For more details see [this article](https://githubharald.github.io/fast_inv_sqrt.html).
 
 
 ![error](doc/error.png)
